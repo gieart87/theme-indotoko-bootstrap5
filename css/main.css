@@ -214,6 +214,33 @@ hr {
   }
 }
 
+#product-images .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+#product-images .carousel-indicators {
+  position: static;
+  margin-top: 20px;
+}
+
+#product-images .carousel-indicators > li {
+  width: 100px;
+}
+
+#product-images .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#product-images .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#product-images .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
 .product-detail h1 {
   font-weight: 600;
   font-size: 2.1875rem;
